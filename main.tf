@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "terraform-states"
+    bucket = "terraform-roberto-states"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
